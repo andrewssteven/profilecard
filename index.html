@@ -7,6 +7,14 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
+    <nav class="main-nav">
+      <ul class="nav-links">
+        <li><a href="index.html" aria-current="page">Home</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="about.html">About Me</a></li>
+      </ul>
+    </nav>
+
     <main>
       <article class="profile-card" data-testid="test-profile-card">
         <header class="profile-header">
@@ -21,9 +29,15 @@
 
           <!-- profile info -->
           <div class="profile-info">
-            <h1 class="profile-name" data-testid="test-user-name">Stephen Oisewemen</h1>
+            <h1 class="profile-name" data-testid="test-user-name">
+              Stephen Oisewemen
+            </h1>
             <p class="profile-bio" data-testid="test-user-bio">
-              I’m a passionate Frontend Developer focused on building responsive, user-friendly, and accessible web applications. I enjoy writing clean, maintainable code, collaborating with teams, and continuously learning to stay ahead in the ever-evolving web ecosystem.
+              I’m a passionate Frontend Developer focused on building
+              responsive, user-friendly, and accessible web applications. I
+              enjoy writing clean, maintainable code, collaborating with teams,
+              and continuously learning to stay ahead in the ever-evolving web
+              ecosystem.
             </p>
             <div class="profile-time-wrapper">
               <span class="profile-time-label">Current Time (ms):</span>
@@ -38,7 +52,7 @@
         </header>
 
         <!-- social media -->
-        <nav class="profile-social" >
+        <nav class="profile-social">
           <h2 class="section-title">Connect With Me</h2>
           <ul class="social-links" data-testid="test-user-social-links">
             <li>
@@ -100,31 +114,31 @@
             </li>
           </ul>
         </nav>
-            <section class="likes-dislikes">
-                <section class="profile-section">
-                <h2 id="hobbies-heading" class="section-title">
-                Hobbies & Interests
-                </h2>
-                <ul class="profile-list" data-testid="test-user-hobbies">
-                    <li>Coding up nice projects</li>
-                    <li>Playing acoustic guitar</li>
-                    <li>Hiking and outdoor adventures</li>
-                    <li>Watching  chinese animations</li>
-                    <li>Contributing to open-source projects</li>
-                </ul>
-                </section>
-    
-                <section class="profile-section">
-                <h2 id="dislikes-heading" class="section-title">Dislikes</h2>
-                <ul class="profile-list" data-testid="test-user-dislikes">
-                    <li>Bugs</li>
-                    <li>Unnecessary meetings that could be emails</li>
-                    <li>Unnecessaryly long meetings</li>
-                    <li>Inaccessible websites</li>
-                    <li>Over rated hollywood movies</li>
-                </ul>
-                </section>
-            </section>
+        <section class="likes-dislikes">
+          <section class="profile-section">
+            <h2 id="hobbies-heading" class="section-title">
+              Hobbies & Interests
+            </h2>
+            <ul class="profile-list" data-testid="test-user-hobbies">
+              <li>Coding up nice projects</li>
+              <li>Playing acoustic guitar</li>
+              <li>Hiking and outdoor adventures</li>
+              <li>Watching chinese animations</li>
+              <li>Contributing to open-source projects</li>
+            </ul>
+          </section>
+
+          <section class="profile-section">
+            <h2 id="dislikes-heading" class="section-title">Dislikes</h2>
+            <ul class="profile-list" data-testid="test-user-dislikes">
+              <li>Bugs</li>
+              <li>Unnecessary meetings that could be emails</li>
+              <li>Unnecessaryly long meetings</li>
+              <li>Inaccessible websites</li>
+              <li>Over rated hollywood movies</li>
+            </ul>
+          </section>
+        </section>
       </article>
     </main>
     <script src="script.js"></script>
